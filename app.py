@@ -57,7 +57,7 @@ def app1():
     
     
     #Import data 
-    df_init=pd.read_excel('dataset_final.xlsx',index_col=0)
+    df_init=pd.read_excel('dataset_final.xlsx',index_col=0,engine='openpyxl')
     df_init=df_init[df_init.columns[:-1]]
     df=df_init[df_init.columns[2:]]
     df_entrainement=df
@@ -110,7 +110,7 @@ def app1():
     
     
     #Import data     
-    df_init=pd.read_excel('dataset_final.xlsx',index_col=0)
+    df_init=pd.read_excel('dataset_final.xlsx',index_col=0,engine='openpyxl')
     df_init=df_init[df_init.columns[:-1]]
     df=df_init[df_init.columns[2:]]
     df_entrainement=df
