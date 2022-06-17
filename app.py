@@ -31,7 +31,8 @@ app = hy.HydraApp(title="Anticipation énergie réactive | Enedis ",hide_streaml
 def app1():
     #Présentation
     st.title("Cette application prédit l'arrivée d'énergie réactive")
-    st.subheader("Sur cet onglet, on prédira l'arrivée d'énergie réactive injectée")    
+    st.subheader("Sur cet onglet, on prédira l'arrivée d'énergie réactive injectée")   
+    st.write("Cette prédiction se base sur la longueur HTA souterraine, la quantité d'énergies renouvelables rattachée et la filière correspondante.")    
     st.write("La modèle de machine learning adopté est le Random Forest regressor")
     st.write("Il a un score R2 de 0.59 après tuning")    
     st.write('---')
@@ -85,6 +86,7 @@ def app1():
 def app1():    
     st.title("Cette application prédit l'arrivée d'énergie réactive") 
     st.subheader("Sur cet onglet, on prédira l'arrivée d'énergie réactive soutirée")    
+    st.write("Cette prédiction se base sur la longueur HTA souterraine, la quantité d'énergies renouvelables rattachée et la filière correspondante.")
     st.write("La modèle de machine learning adopté est le Extras Trees regressor")
     st.write("Il a un score R2 de 0.52 après tuning")    
     st.write('---')
