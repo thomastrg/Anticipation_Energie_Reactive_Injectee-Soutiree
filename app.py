@@ -9,24 +9,17 @@ import pandas as pd
 import hydralit_components as hc
 import hydralit as hy
 import streamlit as st 
-#Visualisation
-import seaborn as sns
-import matplotlib.pyplot as plt
+
 # Machine learning
 from sklearn.model_selection import train_test_split
 from sklearn import preprocessing
 from sklearn import linear_model
 from sklearn.metrics import r2_score,mean_squared_error
-from sklearn.linear_model import Ridge
-from sklearn.model_selection import GridSearchCV
-from sklearn.linear_model import Lasso
-from sklearn.svm import SVR
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.ensemble import ExtraTreesRegressor
 
-import locale 
-locale.setlocale(locale.LC_NUMERIC,'fr_FR.UTF-8')
+
 
 
 
