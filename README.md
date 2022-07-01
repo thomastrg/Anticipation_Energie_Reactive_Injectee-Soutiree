@@ -2,7 +2,7 @@
 
 <br>
 <p align="center">
-  <img src="https://www.crevin.fr/medias/sites/4/2019/09/logo-enedis-1.png" width=700" />
+  <img src="https://www.crevin.fr/medias/sites/4/2019/09/logo-enedis-1.png" width=500" />
 </p>
 <br>
 
